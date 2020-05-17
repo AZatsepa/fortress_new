@@ -1,0 +1,10 @@
+@import
+'_custom_bootstrap_variables.scss',
+'../../bower_components/bootstrap/scss/_functions.scss',
+'../../bower_components/bootstrap/scss/_variables.scss',
+'../../bower_components/bootstrap/scss/_mixins.scss',
+'_param';
+
+h1{
+	color: red;
+}
