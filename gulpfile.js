@@ -98,6 +98,7 @@ gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/jquery/dist/jquery.min.js',
 		'bower_components/bootstrap/dist/js/bootstrap.bundle.min.js',
+		'bower_components/owl.carousel/dist/owl.carousel.min.js',
 
 		])
 		// .pipe(concat('libs.min.js')) // Собираем их в кучу в новом файле libs.min.js
@@ -114,6 +115,9 @@ gulp.task('css-libs', ['sass'], function() {
 		// 'bower_components/datatables.net-dt/css/jquery.dataTables.min.css',
 		// 'node_modules/overlayscrollbars/css/OverlayScrollbars.min.css',
 		'bower_components/font-awesome/css/all.min.css',
+		'bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
+		'bower_components/owl.carousel/dist/assets/owl.theme.default.min.css',
+		// 'bower_components/animate.css/animate.min.css',
 		
 		])
 		.pipe(sourcemaps.init())

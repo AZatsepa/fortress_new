@@ -7,3 +7,29 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+html,
+body {
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+}
+.footer,.header{
+    flex: 0 0 auto;
+}
+.main{
+    flex: 1 0 auto;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.promo_block{
+    + .main{
+        padding-top: 30px;
+    }
+}
+.animated  {
+  -webkit-animation-duration : 3000ms  !important;
+  animation-duration : 3000ms   !important;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+} 

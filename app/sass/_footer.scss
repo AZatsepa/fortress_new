@@ -1,0 +1,37 @@
+.footer{
+	border-top: 10px solid theme-color("primary");
+	a{
+		color: #000;
+		&:hover{
+			color: #000;
+		}
+	}
+	p{
+		font-size: 11px;
+		line-height: 12px;
+	}
+	.logo{
+		a,i,span{
+			color: theme-color("primary");
+		}
+		i{
+			@include media-breakpoint-down(xs) {
+				font-size: 60px;
+			}
+		}
+	}
+}
+.soc_block{
+	ul{
+		a{
+			color: theme-color("primary");
+			 transition: all 0.3s ease;
+		}
+		i{
+			font-size: 25px;
+			@include media-breakpoint-down(xs) {
+				font-size: 40px;
+			}
+		}
+	}
+}
