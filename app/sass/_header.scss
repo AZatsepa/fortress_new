@@ -4,6 +4,10 @@
 	height: 50px;
 	z-index: 101;
 	transition: all 0.3s ease;
+	background: theme-color("primary");
+	.home_page &{
+		background: none;
+	}
 	&.active{
 		background: theme-color("primary");
 	}
@@ -11,6 +15,14 @@
 		color: #fff;
 		a{
 			color: #fff;
+		}
+	}
+	.main_nav{
+		.active{
+			a{
+				// color: theme-color("dark");
+				text-decoration: underline;
+			}
 		}
 	}
 }

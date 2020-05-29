@@ -46,6 +46,9 @@
 	position: relative;
 	min-height: 100vh;
 	padding: 60px 0;
+	// .hld_cont_i{
+	// 	min-height: 100%;
+	// }
 	@include media-breakpoint-up(md) {
 		background-image: none !important;
 	}

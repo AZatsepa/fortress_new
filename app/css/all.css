@@ -12,13 +12,17 @@ html, body { height: 100%; }
 
 .animated { -webkit-animation-duration: 3000ms  !important; animation-duration: 3000ms   !important; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
 
-.header { top: 0; left: 0; height: 50px; z-index: 101; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
+.header { top: 0; left: 0; height: 50px; z-index: 101; -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; background: #00a8e5; }
+
+.home_page .header { background: none; }
 
 .header.active { background: #00a8e5; }
 
 .header .main_nav, .header .etc_nav { color: #fff; }
 
 .header .main_nav a, .header .etc_nav a { color: #fff; }
+
+.header .main_nav .active a { text-decoration: underline; }
 
 .logo { color: #fff; }
 
